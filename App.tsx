@@ -11,7 +11,7 @@ import {Provider} from 'react-redux';
 import {store} from './src/app/store';
 
 import PokemonList from './src/components/PokemonList';
-
+import TrainerForm from './src/components/TrainerForm';
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
